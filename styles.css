@@ -36,21 +36,12 @@
 #nav-icon-text{
     font-size: 2rem;
     color: var(--primary-clr);
+    margin-right: 2rem;
 }
 
 #search{
     border: 2px solid var(--secondary-clr);
     width: 30rem;
-}
-
-#search-icon{
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    color: var(--primary-clr);
-}
-
-#search-icon:hover{
-    opacity: 0.8;
 }
 
 #nav-badge-div{
@@ -89,12 +80,13 @@
 
 .header-items:hover{
     opacity: 0.7;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .header-img{
     max-width: 100%;
-    height: 250px;
+    width: 25rem;
+    height: auto;
 }
 
 .header-overlay{
@@ -106,4 +98,106 @@
     top: 60%;
     text-align: center;
     font-weight: bold;
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.banner-badge{
+    position: absolute;
+    bottom: 4rem;
+    color: var(--primary-clr);
+    background-color: var(--secondary-clr);
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.banner-cta{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.banner-badge:hover{
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+/* New Arrival */
+.new-arrival{
+    background-color: var(--primary-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.new-arrival-img{
+    padding: 2rem;
+    width: 40rem;
+    height: auto;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid var(--primary-clr);
+    box-shadow: -8px 5px 10px 2px var(--primary-clr);
+    padding: 1.5rem;
+}
+
+.footer-heading{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.social-links{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.social-links li{
+    margin: 1rem;
+}
+
+.fa-linkedin,
+.fa-instagram,
+.fa-twitter{
+    font-size: 2rem;
+    color: var(--primary-clr);
+}
+
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-twitter:hover{
+    opacity: 0.7;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 750px) {
+    .search{
+        visibility: hidden;
+        display: inline;
+    }
+    #search{
+        width: 0;
+    }
+    .title{
+        margin-left: 5px;
+    }
+    #nav-options{
+        margin-right: 5px;
+    }
+    #nav-icon-text{
+        margin-right: 5px;
+    }
 }
