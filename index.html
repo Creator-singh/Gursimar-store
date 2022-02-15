@@ -9,6 +9,7 @@
 
     <!-- External Link -->
     <link rel="stylesheet" href="./styles/homepage.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
     <!-- Component Library -->
     <link rel="stylesheet" href="https://webit-ui.netlify.app/styles/components.css">
@@ -19,7 +20,9 @@
     <!-- Navigation Bar -->
     <nav class="docs-navbar" id="store-navbar">
         <div class="title">
-            <a class="brand-name" href="./index.html">Webitly</a>
+            <a class="brand-name" href="./index.html">
+                <img src="./assets/images/logo.png" alt="Webitly">
+            </a>
         </div>
         <div class="search">
             <label for="search"></label>
@@ -29,9 +32,12 @@
 
         <ul id="nav-options">
             <li>
-                <a href="./pages/login.html" id="nav-icon-text">
-                    <i class="far fa-user-circle"></i>
-                </a>
+                <div id="nav-badge-div">
+                    <a href="./pages/login.html" id="nav-icon-text">
+                        <i class="far fa-user-circle"></i>
+                    </a>
+                </div>
+                <span>Account</span>
             </li>
             <li>
                 <div id="nav-badge-div">
@@ -40,6 +46,7 @@
                         <span id="nav-badge">5</span>
                     </a>
                 </div>
+                <span>Wishlist</span>
             </li>
             <li>
                 <div id="nav-badge-div">
@@ -48,6 +55,7 @@
                         <span id="nav-badge">2</span>
                     </a>
                 </div>
+                <span>Cart</span>
             </li>
         </ul>
     </nav>
