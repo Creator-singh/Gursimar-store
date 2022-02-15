@@ -1,0 +1,43 @@
+.wishlist-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-image{
+    height: 28rem;
+    width: 30rem;
+    object-fit: cover;
+}
+
+#add-to-cart{
+    background-color: var(--primary-clr);
+    border: 2px solid var(--primary-clr);
+    margin-bottom: 0.5rem;
+}
+
+.close{
+    align-self: center;
+    background-color: var(--secondary-clr);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+#heart{
+    color: var(--bg-danger);
+    font-weight: 500;
+}
+
+.card-price{
+    margin-top: 1rem;
+}
+
+.price{
+    font-size: large;
+    font-weight: bold;
+}
+
+.strike{
+    text-decoration: line-through;
+}
