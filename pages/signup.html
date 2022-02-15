@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <meta name="author" content="Gursimar Singh" />
+    <meta name="description" content="Webit store is a go to place E-commerce platform for every bit of your needs." />
+
+    <link rel="stylesheet" href="../styles/homepage.css">
+    <link rel="stylesheet" href="../styles/login-signup.css">
+
+    <!-- Component Library -->
+    <link rel="stylesheet" href="https://webit-ui.netlify.app/styles/components.css">
+
+    <title>Webitly | Signup</title>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="docs-navbar" id="store-navbar">
+        <div class="title">
+            <a class="brand-name" href="../index.html">Webitly</a>
+        </div>
+        <div class="search">
+            <label for="search"></label>
+            <input type="search" name="search" id="search" placeholder="Search for brands, products and more">
+            <a href="#"></i></a>
+        </div>
+
+        <ul id="nav-options">
+            <li>
+                <a href="./login.html" id="nav-icon-text">
+                    <i class="far fa-user-circle"></i>
+                </a>
+            </li>
+            <li>
+                <div id="nav-badge-div">
+                    <a href="#">
+                        <i class="far fa-heart" id="nav-icon-text"></i>
+                        <span id="nav-badge">5</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div id="nav-badge-div">
+                    <a href="#">
+                        <i class="far fa-shopping-cart" id="nav-icon-text"></i>
+                        <span id="nav-badge">2</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
     
+    <!-- Signup Page -->
+    <div class="wrapper">
+        <form action="./login.html" class="form">
+            <!-- Title -->
+            <h3 class="form-title">Signup</h3>
+            <!-- Username -->
+            <div class="field-column">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            </div>
+            <!-- Email -->
+            <div class="field-column">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email ID" required>
+            </div>
+            <!-- Password -->
+            <div class="field-column">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <!-- Confirm Password -->
+            <div class="field-column">
+                <label for="password">Confirm Password</label>
+                <input type="password" name="password" id="password" placeholder="Re Enter Password" required>
+            </div>
+            <!-- Signup Btn -->
+            <div class="field-column">
+                <button id="login-btn" class="link-btn-hover">Signup</button>
+            </div>
+            <!-- Create New Account -->
+            <div class="field-row new-account">
+                <a class="create-acc-btn link-btn-hover" href="./login.html">
+                    <i class="far fa-arrow-alt-circle-right"></i>Already have an account?
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-heading">
+            Made by GURSIMAR SINGH 🚀
+        </div>
+        <div>
+            <ul class="social-links">
+                <li>
+                    <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
+
+                <li>
+                    <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
+
+                <li>
+                    <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
+                        rel="noopener noreferrer"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

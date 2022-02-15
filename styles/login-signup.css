@@ -1,0 +1,72 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.form{
+    width: 40rem;
+    height: fit-content;
+    border: 2px solid var(--secondary-clr);
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 2px 2px 2px 2px var(--primary-clr);;
+}
+
+.form-title{
+    text-align: center;
+    padding: 1rem;
+}
+
+.field-column{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1.5rem;
+}
+
+.field-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+#username, #password, #email{
+    padding: 1rem;
+} 
+
+.remember-me{
+    cursor: pointer;
+}
+
+.forget-pass{
+    color: var(--primary-clr);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#login-btn{
+    background-color: var(--primary-clr);
+    color: white;
+    padding: 1rem;
+    border: 2px solid var(--primary-clr);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-account{
+    justify-content: center;
+}
+
+.create-acc-btn{
+    color: var(--primary-clr);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.link-btn-hover:hover{
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}

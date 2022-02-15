@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
 
     <title>Webitly | Login</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="docs-navbar" id="store-navbar">
@@ -51,10 +53,43 @@
             </li>
         </ul>
     </nav>
+
     <!-- Login Page -->
     <div class="wrapper">
-
+        <form action="./login.html" class="form">
+            <!-- Title -->
+            <h3 class="form-title">Login</h3>
+            <!-- Username -->
+            <div class="field-column">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            </div>
+            <!-- Password -->
+            <div class="field-column">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <!-- Remember Me & Forgot password -->
+            <div class="field-row">
+                <label for="remember-me" class="remember-me">
+                    <input class="remember-me" type="checkbox" name="remember-me" id="remember-me">
+                    Remember Me
+                </label>
+                <a class="forget-pass link-btn-hover" href="#">Forget Password?</a>
+            </div>
+            <!-- Login Btn -->
+            <div class="field-column">
+                <button id="login-btn" class="link-btn-hover">Login</button>
+            </div>
+            <!-- Create New Account -->
+            <div class="field-row new-account">
+                <a class="create-acc-btn link-btn-hover" href="./signup.html">
+                    <i class="far fa-arrow-alt-circle-right"></i>Create Account
+                </a>
+            </div>
+        </form>
     </div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-heading">
@@ -63,22 +98,22 @@
         <div>
             <ul class="social-links">
                 <li>
-                  <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
-                    rel="noopener noreferrer"></a>
+                    <a class="fab fa-linkedin" href="https://in.linkedin.com/in/gursimar-singh-cu" target="_blank"
+                        rel="noopener noreferrer"></a>
                 </li>
-        
+
                 <li>
-                  <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
-                    rel="noopener noreferrer"></a>
+                    <a class="fab fa-twitter" href="https://twitter.com/Gursimar_DEV" target="_blank"
+                        rel="noopener noreferrer"></a>
                 </li>
-        
+
                 <li>
-                  <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
-                    rel="noopener noreferrer"></a>
+                    <a class="fab fa-instagram" href="https://www.instagram.com/gursimar.dev/" target="_blank"
+                        rel="noopener noreferrer"></a>
                 </li>
-              </ul>
+            </ul>
         </div>
     </footer>
-
 </body>
+
 </html>
