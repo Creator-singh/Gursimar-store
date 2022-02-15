@@ -10,10 +10,23 @@ Webit store is a go to place E-commerce platform for every bit of your needs.
 
 ## Screens
  - Homepage
- ![homepage](https://user-images.githubusercontent.com/64949453/154022851-75d6c20a-5b40-4918-9a93-5223d0199872.png)
+
+ ![homepage](https://user-images.githubusercontent.com/64949453/154091902-fcb0fa8f-8ddd-4c84-a780-d05686d596cf.png)
 
  - Login Page
- ![login_page](https://user-images.githubusercontent.com/64949453/154022239-2ab632c8-1de5-49de-ac37-0c688d5d433a.png)
+
+ ![login_page](https://user-images.githubusercontent.com/64949453/154091384-7e225b54-ab59-408d-a1a6-e13c2578019e.png)
 
  - Signup Page
- ![signup_page](https://user-images.githubusercontent.com/64949453/154022333-68a4a416-2e77-445e-a4cc-068d3e681895.png)
+
+ ![signup_page](https://user-images.githubusercontent.com/64949453/154091633-cbc95187-e858-4e28-81be-f6d8b077f87c.png)
+
+ - Wishlist Page
+ 
+ ![wishlist_page](https://user-images.githubusercontent.com/64949453/154091078-d46de4d6-b68f-4d0b-a7cb-af9f8c662b71.png)
+
+ ## Live Link
+ Website : [Webitly Store](https://webitly-store.netlify.app/)
+
+ ![Logo](https://user-images.githubusercontent.com/64949453/154092537-ca337318-2f27-4e21-ad39-5cd67884368a.png)
+
