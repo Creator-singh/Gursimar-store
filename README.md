@@ -1,3 +1,4 @@
+# <img src="https://user-images.githubusercontent.com/64949453/154092537-ca337318-2f27-4e21-ad39-5cd67884368a.png" alt="Webitly Store" width="150"/>
 # Webitly Store
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0496cfd4-ca84-42b9-8d46-5f4da42f82c4/deploy-status)](https://app.netlify.com/sites/webitly-store/deploys)
 
@@ -23,10 +24,11 @@ Webit store is a go to place E-commerce platform for every bit of your needs.
 
  - Wishlist Page
  
- ![wishlist_page](https://user-images.githubusercontent.com/64949453/154091078-d46de4d6-b68f-4d0b-a7cb-af9f8c662b71.png)
+ ![wishlist_page](https://user-images.githubusercontent.com/64949453/154257671-5c1d034b-1430-4955-937a-40abb3e62d67.png)
+
+ - Product Listing Page
+
+ ![product_page](https://user-images.githubusercontent.com/64949453/154257795-58d2a2bb-ec70-4217-b6d9-5785da0c9a17.png)
 
  ## Live Link
  Website : [Webitly Store](https://webitly-store.netlify.app/)
-
- ![Logo](https://user-images.githubusercontent.com/64949453/154092537-ca337318-2f27-4e21-ad39-5cd67884368a.png)
-
