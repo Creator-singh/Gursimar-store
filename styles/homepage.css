@@ -197,6 +197,20 @@
     opacity: 0.7;
 }
 
+/* scrollbar CSS */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-clr);
+    border-radius: 10px;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 800px) {
     .search{

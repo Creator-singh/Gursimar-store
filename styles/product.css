@@ -84,17 +84,3 @@
 .strike{
     text-decoration: line-through;
 }
-
-/* scrollbar CSS */
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--secondary-clr);
-    border-radius: 10px;
-}

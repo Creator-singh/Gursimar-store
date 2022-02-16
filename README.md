@@ -23,7 +23,11 @@ Webit store is a go to place E-commerce platform for every bit of your needs.
 
  - Wishlist Page
  
- ![wishlist_page](https://user-images.githubusercontent.com/64949453/154091078-d46de4d6-b68f-4d0b-a7cb-af9f8c662b71.png)
+ ![wishlist_page](https://user-images.githubusercontent.com/64949453/154257671-5c1d034b-1430-4955-937a-40abb3e62d67.png)
+
+ - Product Listing Page
+
+ ![product_page](https://user-images.githubusercontent.com/64949453/154257795-58d2a2bb-ec70-4217-b6d9-5785da0c9a17.png)
 
  ## Live Link
  Website : [Webitly Store](https://webitly-store.netlify.app/)
