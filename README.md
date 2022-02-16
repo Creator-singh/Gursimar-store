@@ -1,3 +1,4 @@
+# <img src="https://user-images.githubusercontent.com/64949453/154092537-ca337318-2f27-4e21-ad39-5cd67884368a.png" alt="Webitly Store" width="150"/>
 # Webitly Store
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0496cfd4-ca84-42b9-8d46-5f4da42f82c4/deploy-status)](https://app.netlify.com/sites/webitly-store/deploys)
 
@@ -31,6 +32,3 @@ Webit store is a go to place E-commerce platform for every bit of your needs.
 
  ## Live Link
  Website : [Webitly Store](https://webitly-store.netlify.app/)
-
- ![Logo](https://user-images.githubusercontent.com/64949453/154092537-ca337318-2f27-4e21-ad39-5cd67884368a.png)
-
