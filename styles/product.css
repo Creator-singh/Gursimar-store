@@ -1,0 +1,100 @@
+.product-container{
+    display: flex;
+    position: relative;
+}
+
+.filter-section{
+    position: sticky;
+    top: 8rem;
+    left: 0;
+    width: 25rem;
+    min-width: 20rem;
+    height: calc(100vh - 8rem);
+    overflow: auto;
+}
+
+.filter-title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.clear-all{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter-list{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 2.5rem;
+}
+
+.filter-list li{
+    padding: 0.5rem 0;
+}
+
+.list-space{
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.product-listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    height: 28rem;
+    width: 30rem;
+    object-fit: cover;
+}
+
+#add-to-cart{
+    background-color: var(--primary-clr);
+    border: 2px solid var(--primary-clr);
+    margin-bottom: 0.5rem;
+}
+
+.close{
+    align-self: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+#heart{
+    font-weight: 700;
+}
+
+.card-price{
+    margin-top: 1rem;
+}
+
+.price{
+    font-size: large;
+    font-weight: bold;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+/* scrollbar CSS */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-clr);
+    border-radius: 10px;
+}
