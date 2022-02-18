@@ -2,6 +2,8 @@
     --primary-clr: #1f2937;
     --secondary-clr: #d1d5db;
     --badge-clr: #ef4444;
+    --primary-btn-txt-clr: white;
+    --secondary-btn-txt-clr: black;
 }
 
 /* Navigation */

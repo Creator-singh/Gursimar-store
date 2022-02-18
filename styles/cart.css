@@ -83,14 +83,14 @@
 .remove{
     background-color: var(--primary-clr);
     border: 1px solid var(--primary-clr);
-    color: white;
+    color: var(--primary-btn-txt-clr);
     margin: 1rem 0;
 }
 
 .move-wish{
     background-color: var(--secondary-clr);
     border: 1px solid var(--secondary-clr);
-    color: black;
+    color: var(--secondary-btn-txt-clr);
 }
 
 .remove, .move-wish{
@@ -146,7 +146,7 @@
 .place-order{
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: var(--primary-btn-txt-clr);
     padding: 1rem;
     margin: 2rem 0 0 0;
     width: 100%;
