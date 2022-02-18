@@ -3,22 +3,28 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5rem;
     margin: 5rem 0;
+}
+
+.cart-listing{
+    padding: 0 2rem;
 }
 
 .card-horizontal{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 3rem;
-    box-shadow: 2px 2px 2px 2px var(--primary-clr);
+    border: 2px solid var(--secondary-clr);
+    border-radius: 3px;
 }
 
 .card-image{
     height: fit-content;
-    width: 30%;
+    width: 20rem;
+    overflow: hidden;
 }
 
 .card-image img{
@@ -76,12 +82,14 @@
 
 .remove{
     background-color: var(--primary-clr);
+    border: 1px solid var(--primary-clr);
     color: white;
     margin: 1rem 0;
 }
 
 .move-wish{
     background-color: var(--secondary-clr);
+    border: 1px solid var(--secondary-clr);
     color: black;
 }
 
@@ -89,15 +97,60 @@
     padding: 1rem;
     border-radius: 5px;
     width: 100%;
+    font-weight: bold;
+    text-align: center;
 }
 
-.remove:hover, .move-wish:hover{
+.remove:hover, .move-wish:hover, .place-order:hover{
     transition: all 0.3s ease;
     opacity: 0.7;
     cursor: pointer;
 }
 
-.total{
+.price-details{
+    padding: 1rem;
     align-self: flex-start;
-    box-shadow: 2px 2px 2px 2px var(--primary-clr);
+    border: 2px solid var(--secondary-clr);
+    border-radius: 3px;
+}
+
+.price-details h3{
+    text-align: center;
+    border-bottom: 1px solid var(--secondary-clr);
+}
+
+.each-price, .discount, .delivery-charge, .total-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.each-price span, .discount span, .delivery-charge span, .total-amount span{
+    font-weight: bold;
+}
+
+.delivery-charge{
+    border-bottom: 1px solid var(--secondary-clr);
+}
+
+.total-amount{
+    border-bottom: 1px solid var(--secondary-clr);
+    margin-bottom: 2rem;
+}
+
+.total-amount span{
+    font-size: x-large;
+}
+
+.place-order{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+    width: 100%;
+    background-color: var(--primary-clr);
+    border-radius: 5px;
+    border: 1px solid var(--primary-clr);
 }
